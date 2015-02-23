@@ -1,0 +1,471 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: Tahoma;
+ height: 100%;
+}
+
+.mainBg {
+ background: url(../img/b.jpg) no-repeat 50% 0% fixed;
+}
+
+.wrapper {
+ width: 883px;
+ margin: 0 auto;
+ text-align:center;
+ background: #fff;
+ padding: 20px 20px;
+ box-sizing: border-box;
+}
+
+header {
+ margin:80px 0 40px 0;
+ text-align: center;
+}
+
+.label {
+ color: #f00;
+ font-size: 2.4em;
+ font-family: 'Poiret One', cursive;
+}
+
+#homeHeading {
+ font-family: 'Comfortaa', cursive;
+ color: #ccc;
+ text-transform: uppercase;
+ font-size: 3.3em;
+}
+
+#homeHeading + p {
+ color: #aaa;
+}
+
+.content {
+ border: 5px solid #eee;
+ padding: 20px 20px;
+ text-align: center;
+}
+
+.homeContent {
+ margin-top: 150px;
+ border: 4px dashed #eee;
+}
+
+header + a {
+ width: 170px;
+ height: 78px;
+ display: block;
+ margin: 0 auto;
+}
+
+#homeStart {
+ box-sizing: border-box;
+}
+
+ul.small {
+	text-align: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.smal li {
+	padding: 3px 0;
+}
+
+.rules {
+	width: 30%;
+	margin: 20px auto;
+}
+
+.rules span.small {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+/* Start Page */
+
+.startGame {
+ background: rgba(255, 153, 115, .7);
+ text-align:center;
+ display: inline-block;
+ padding: 10px 15px;
+ border-radius: 5px;
+ cursor: pointer;
+ -webkit-transition: all .3s;
+ transition: all .3s;
+}
+
+.startGame:hover {
+ background: rgba(255, 153, 115, 1);
+}
+
+.startGame h2 {
+ font-size: 1.5em;
+ color: #fefefe;
+}
+
+/* Remember Page */
+
+.backAnchor {
+ float: left;
+ font-size: 0.7em;
+ text-align: left;
+}
+
+.level {
+ float: right;
+ font-size: 1.1em;
+ color: #aaa;
+ margin-right: 20px;
+ padding: 5px;
+ border: 2px solid red;
+}
+
+.level:after {
+ content: ".";
+ height: 0;
+ visibility: hidden;
+ display: block;
+ clear: both;
+}
+
+.level span {
+ color: #000;
+ font-weight: bold;
+}
+
+.backAnchor a {
+ text-decoration: none;
+ color: #bbb;
+ font-weight: normal;
+}
+
+.backAnchor a:hover {
+ text-decoration: underline;
+}
+
+.rememberContent {
+ width: 70%;
+/* float:left; */
+ margin: 0 auto;
+}
+
+ul#listOfItems {
+ list-style-type:none;
+ margin:0;
+ padding:0;
+}
+
+#listOfItems li {
+ display: block;
+ margin: 3px 0px;
+ padding: 2px;
+ border-bottom: 1px solid #ddd;
+ color: #555;
+ font-size: 1.5em;
+}
+
+#timer, #timerRemember {
+ float:left;
+ width: 110px;
+ height: 90px;
+ background: #507fa4;
+ padding: 10px 15px;
+ text-align: center;
+ border-radius: 3px;
+}
+
+#timer {
+ margin-left: 45px;
+}
+
+#timerRemember {
+ display: none;
+ margin: 40px 0 0 220px;
+}
+
+#timer h2, #timerRemember h2{
+ color: #fefefe;
+ font-size: 1.1em;
+ margin-top: 10px;
+}
+
+#timer h2 span, #timerRemember h2 span {
+ font-weight: bold;
+ font-size: 1.4em;
+ color: #fff;
+}
+
+.submitButton {
+ margin: 40px 0 20px 120px;
+ float: left;
+ width: 230px;
+ height: 80px;
+ background: rgba(165, 229, 103, .7);
+ padding: 15px 10px;
+ border-radius: 5px;
+ -webkit-transition: all .3s;
+ transition: all .3s;
+}
+
+#submitRemember {
+ display: none;
+}
+
+.submitButton:hover {
+ background: rgba(165, 229, 103, 1);
+}
+
+.submitButton h2 {
+ margin-top: 10px;
+}
+
+.submitButton h2 a {
+ text-decoration: none;
+ color: #fefefe;
+}
+
+.addMarginBottom {
+ margin-bottom: 105px;
+}
+
+
+/* Shopping page */
+
+.small {
+	font-size: 0.75em;
+	color: #bbb;
+}
+
+.labelShopping {
+ margin: 10px 0 15px 0;
+}
+
+.shoppingContent {
+ padding: 5px 5px;
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+.stand {
+ width: 321px;
+ border: 3px solid #888;
+}
+
+.standLeft {
+ float:left;
+ margin-left: 70px;
+}
+
+.standRight {
+ float:right;
+ margin-right: 70px;
+}
+
+.stand .top {
+ width: 100%;
+ height: 50px;
+ background: #dc143c;
+ padding-top: 25px;
+ border-bottom: 5px solid #888;
+}
+
+.stand .top h2 {
+ font-weight: bold;
+ color: #fefefe;
+ font-size: 1.1em;
+}
+
+.stand .goods {
+ width: 100%;
+ border-bottom: 5px solid #888;
+}
+
+.shelf1, .shelf2, .shelf3, .shelf4 {
+ width: 321px;
+ height: 110px;
+ border-bottom: 2px solid #ddd;
+}
+
+.shelf1 div, .shelf2 div, .shelf3 div, .shelf4 div{
+ width: 100px;
+ height: 100px;
+ margin: 3px;
+ float:left;
+ cursor: pointer;
+}
+
+.shelf1 div:hover, .shelf2 div:hover, .shelf3 div:hover, .shelf4 div:hover {
+ border: 1px solid #eee;
+}
+
+.stand .bottom {
+ width: 100%;
+ height: 40px;
+ background: #dc143c;
+}
+
+.shoppingButton {
+ margin: 0 0 0 60px;
+}
+
+#basket {
+ width: 150px;
+ height: 170px;
+ float: right;
+ margin-right: 40px;
+ background: url(../img/basket.png) no-repeat;
+ position: relative;
+ top: -15px;
+}
+
+#basket div {
+ width: 70px;
+ height: 70px;
+ border-radius: 75px;
+ border: 10px solid rgba(165, 229, 103, .3);
+ background: rgba(0, 0, 0, .3);
+ position: relative;
+ top: 15px;
+ left: 15px;
+ cursor: pointer;
+ -webkit-transition: background 0.4s;
+ transition: background 0.4s;
+}
+
+#basket div:hover {
+ border: 10px solid rgba(165, 229, 103, .5);
+ background: rgba(0, 0, 0, .5);
+}
+
+#basket div h1 {
+ color: rgba(255, 255, 255, .8);
+ font-size: 1.5em;
+ margin-top: 20px;
+ padding: 0;
+ display: inline-block;
+}
+
+#basket div h1:hover {
+ color: rgba(255, 255, 255, 1);
+}
+
+#basket div span {
+	display: inline-block;
+	color: #fff;
+}
+
+#basket div h3 {
+	display: inline-block;
+	color: #fff;
+}
+
+#basketInside {
+ max-width: 510px;
+ border: 5px solid #eee;
+ float: left;
+ position: relative;
+ top: -40px;
+ padding: 5px;
+ display: none;
+}
+
+#basketInside div {
+ width: 30px;
+ height: 30px;
+ margin: 2px;
+ display: inline-block;
+ float: left;
+ cursor: pointer;
+}
+
+.overlay {
+ width: 100%;
+ height: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background: rgba(0, 0, 0, 0.5);
+ display: none;
+}
+
+#dialog {
+ width: 500px;
+ background: #fff;
+ padding: 15px;
+ position: absolute;
+ top: 25%;
+ left: 36%;
+ z-index: 100;
+ border-radius: 5px;
+ text-align: center;
+ display: none;
+}
+
+#dialog p {
+ font-family: Arial;
+ font-size: 1.3em;
+ color: #555;
+}
+
+#dialog h3 {
+ margin: 15px 0;
+ color: #777;
+}
+
+#dialog section {
+ border: 3px solid #eee;
+ padding: 3px;
+ text-align: center;
+ display: inline-block;
+}
+
+#dialog section p{
+ font-size: 0.7em;
+}
+
+#dialog #dialogButton {
+ width: 150px;
+ height: 50px;
+ border-radius: 3px;
+ color: white;
+ font-weight: bold;
+ margin: 15px auto;
+ cursor: pointer;
+ padding: 5px 5px 0 5px;
+ transition: background 0.4s;
+ -webkit-transition: background 0.3s;
+}
+
+#dialog h1 {
+ padding-top: 80px;
+ margin-bottom: 20px;
+ font-family: Arial, serif;
+ font-size: 1.7em;
+ font-weight: bold;
+ color: rgba(255, 0, 0, .8);
+}
+
+.success {
+ background: rgba(165, 229, 103, .7);
+ -webkit-transition: all .3s;
+ transition: all .3s;
+}
+
+.success:hover {
+ background: rgba(165, 229, 103, 1);
+}
+
+.failure {
+ background: rgba(255, 153, 115, .7);
+ -webkit-transition: all .3s;
+ transition: all .3s;
+}
+
+.failure:hover {
+ background: rgba(255, 153, 115, 1);
+}

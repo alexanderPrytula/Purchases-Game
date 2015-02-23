@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+ <html lang="ru">
+  <head>
+   <title>Этап: 1</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+   <link href='http://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic' rel='stylesheet' type='text/css'>
+   <script src="js/jquery-1.11.1.min.js"></script>
+   <script>
+	
+	$(document).ready(function() {
+	
+	 window.level = $('.level span');
+     $(window.level).html('9');
+	
+	 sessionStorage.setItem('level', $(window.level).html() );
+	 
+	});
+   
+   </script>
+   <script src="js/remember.js"></script>
+  </head>
+  <body class="mainBg">
+  
+   <div class="wrapper">
+   
+    <h3 class="backAnchor">
+	 <a href="index.html"><< Назад на главную</a>
+	</h3>
+	
+	<h3 class="level">Уровень : <span></span></h3>
+   
+    <header>
+	 <h1 class="label">Для начала игры нажмите «Старт»</h1>
+	 
+	 <div class="startGame" style="margin-top: 20px;">
+	  <h2 class="highlight" id="start">Старт</h2>
+	 </div>
+	</header>
+    
+	<div class="content rememberContent">
+	 <ul id="listOfItems"></ul>
+	</div>
+	
+	<div id="timerRemember">
+	  <h2>
+	   Осталось<br> 
+	   <span>45</span><br>
+	   секунд
+	  </h2>
+	</div>
+	
+	<div class="submitButton addMarginBottom" id="submitRemember">
+	 <h2>
+	  <a href="#" id="goShoppingButton" class="highlight">Вперед за покупками!</a>
+	 </h2>
+	</div>
+	
+	<div style="clear:both"></div>
+	
+   </div>
+  </body>
+ </html>

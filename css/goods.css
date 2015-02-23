@@ -1,0 +1,356 @@
+/* Stand 1 Fruits&Berries */
+
+#fruits_berries .shelf1 a:nth-child(1) div {
+ background: url(../img/fruits&berries/abrikos.jpg) no-repeat;
+}
+
+#fruits_berries .shelf1 a:nth-child(2) div {
+ background: url(../img/fruits&berries/ananas.jpg) no-repeat;
+}
+
+#fruits_berries .shelf1 a:nth-child(3) div {
+ background: url(../img/fruits&berries/apelsin.jpg) no-repeat;
+}
+
+#fruits_berries .shelf2 a:nth-child(1) div {
+ background: url(../img/fruits&berries/arbuz.jpg) no-repeat;
+}
+
+#fruits_berries .shelf2 a:nth-child(2) div {
+ background: url(../img/fruits&berries/boyaryshnik.jpg) no-repeat;
+}
+
+#fruits_berries .shelf2 a:nth-child(3) div {
+ background: url(../img/fruits&berries/ezhevika.jpg) no-repeat;
+}
+
+#fruits_berries .shelf3 a:nth-child(1) div {
+ background: url(../img/fruits&berries/grejpfrut.jpg) no-repeat;
+}
+
+#fruits_berries .shelf3 a:nth-child(2) div {
+ background: url(../img/fruits&berries/sliva.jpg) no-repeat;
+}
+
+#fruits_berries .shelf3 a:nth-child(3) div {
+ background: url(../img/fruits&berries/smorodina-chernaya.jpg) no-repeat;
+}
+
+#fruits_berries .shelf4 a:nth-child(1) div {
+ background: url(../img/fruits&berries/smorodina-krasnaya.jpg) no-repeat;
+}
+
+#fruits_berries .shelf4 a:nth-child(2) div {
+ background: url(../img/fruits&berries/vinograd.jpg) no-repeat;
+}
+
+#fruits_berries .shelf4 a:nth-child(3) div {
+ background: url(../img/fruits&berries/vishnya.jpg) no-repeat;
+}
+
+
+/* Stand 2 Vegetables */
+
+
+#vegetables .shelf1 a:nth-child(1) div {
+ background: url(../img/vegetables/baklazhan.jpg) no-repeat;
+}
+
+#vegetables .shelf1 a:nth-child(2) div {
+ background: url(../img/vegetables/bobi.jpg) no-repeat;
+}
+
+#vegetables .shelf1 a:nth-child(3) div {
+ background: url(../img/vegetables/brokkoli.jpg) no-repeat;
+}
+
+#vegetables .shelf2 a:nth-child(1) div {
+ background: url(../img/vegetables/chesnok.jpg) no-repeat;
+}
+
+#vegetables .shelf2 a:nth-child(2) div {
+ background: url(../img/vegetables/fasol-struchkovaya.jpg) no-repeat;
+}
+
+#vegetables .shelf2 a:nth-child(3) div {
+ background: url(../img/vegetables/goroh.jpg) no-repeat;
+}
+
+#vegetables .shelf3 a:nth-child(1) div {
+ background: url(../img/vegetables/kabachok.jpg) no-repeat;
+}
+
+#vegetables .shelf3 a:nth-child(2) div {
+ background: url(../img/vegetables/kapusta.jpg) no-repeat;
+}
+
+#vegetables .shelf3 a:nth-child(3) div {
+ background: url(../img/vegetables/kartofel.jpg) no-repeat;
+}
+
+#vegetables .shelf4 a:nth-child(1) div {
+ background: url(../img/vegetables/morkov.jpg) no-repeat;
+}
+
+#vegetables .shelf4 a:nth-child(2) div {
+ background: url(../img/vegetables/ogurec.jpg) no-repeat;
+}
+
+#vegetables .shelf4 a:nth-child(3) div {
+ background: url(../img/vegetables/tykva.jpg) no-repeat;
+}
+
+
+/* Stand 3 Eggs and milk */
+
+
+#eggs_milk .shelf1 a:nth-child(1) div {
+ background: url(../img/eggs_milk/kurinoe-yaytso.jpg) no-repeat;
+}
+
+#eggs_milk .shelf1 a:nth-child(2) div {
+ background: url(../img/eggs_milk/maslo-slivochnoe.jpg) no-repeat;
+}
+
+#eggs_milk .shelf1 a:nth-child(3) div {
+ background: url(../img/eggs_milk/moloko.jpg) no-repeat;
+}
+
+#eggs_milk .shelf2 a:nth-child(1) div {
+ background: url(../img/eggs_milk/perepelinye-yaytsa.jpg) no-repeat;
+}
+
+#eggs_milk .shelf2 a:nth-child(2) div {
+ background: url(../img/eggs_milk/sgushhenka.jpg) no-repeat;
+}
+
+#eggs_milk .shelf2 a:nth-child(3) div {
+ background: url(../img/eggs_milk/smetana.jpg) no-repeat;
+}
+
+#eggs_milk .shelf3 a:nth-child(1) div {
+ background: url(../img/eggs_milk/syr-chedder.jpg) no-repeat;
+}
+
+#eggs_milk .shelf3 a:nth-child(2) div {
+ background: url(../img/eggs_milk/syr-feta.jpg) no-repeat;
+}
+
+#eggs_milk .shelf3 a:nth-child(3) div {
+ background: url(../img/eggs_milk/syr-mocarella.jpg) no-repeat;
+}
+
+#eggs_milk .shelf4 a:nth-child(1) div {
+ background: url(../img/eggs_milk/syr-parmezan.jpg) no-repeat;
+}
+
+#eggs_milk .shelf4 a:nth-child(2) div {
+ background: url(../img/eggs_milk/syr-rossijskij.jpg) no-repeat;
+}
+
+#eggs_milk .shelf4 a:nth-child(3) div {
+ background: url(../img/eggs_milk/tvorog.jpg) no-repeat;
+}
+
+
+/* Stand 4 Mushrooms */
+
+
+#mushrooms .shelf1 a:nth-child(1) div {
+ background: url(../img/mushrooms/belyj-grib.jpg) no-repeat;
+}
+
+#mushrooms .shelf1 a:nth-child(2) div {
+ background: url(../img/mushrooms/gruzd.jpg) no-repeat;
+}
+
+#mushrooms .shelf1 a:nth-child(3) div {
+ background: url(../img/mushrooms/lisichki.jpg) no-repeat;
+}
+
+#mushrooms .shelf2 a:nth-child(1) div {
+ background: url(../img/mushrooms/maslyata.jpg) no-repeat;
+}
+
+#mushrooms .shelf2 a:nth-child(2) div {
+ background: url(../img/mushrooms/opyata.jpg) no-repeat;
+}
+
+#mushrooms .shelf2 a:nth-child(3) div {
+ background: url(../img/mushrooms/podberyozovik.jpg) no-repeat;
+}
+
+#mushrooms .shelf3 a:nth-child(1) div {
+ background: url(../img/mushrooms/podosinovik.jpg) no-repeat;
+}
+
+#mushrooms .shelf3 a:nth-child(2) div {
+ background: url(../img/mushrooms/ryzhyk.jpg) no-repeat;
+}
+
+#mushrooms .shelf3 a:nth-child(3) div {
+ background: url(../img/mushrooms/shapmpinoni.jpg) no-repeat;
+}
+
+#mushrooms .shelf4 a:nth-child(1) div {
+ background: url(../img/mushrooms/smorchok.jpg) no-repeat;
+}
+
+#mushrooms .shelf4 a:nth-child(2) div {
+ background: url(../img/mushrooms/syroezhka.jpg) no-repeat;
+}
+
+#mushrooms .shelf4 a:nth-child(3) div {
+ background: url(../img/mushrooms/tryufel.jpg) no-repeat;
+}
+
+/* Meat */
+
+#meat .shelf1 a:nth-child(1) div {
+ background: url(../img/meat/bekon.jpg) no-repeat;
+}
+
+#meat .shelf1 a:nth-child(2) div {
+ background: url(../img/meat/buzhenina.jpg) no-repeat;
+}
+
+#meat .shelf1 a:nth-child(3) div {
+ background: url(../img/meat/govjazhij-jazyk.jpg) no-repeat;
+}
+
+#meat .shelf2 a:nth-child(1) div {
+ background: url(../img/meat/gusinaja-pechen.jpg) no-repeat;
+}
+
+#meat .shelf2 a:nth-child(2) div {
+ background: url(../img/meat/kolbasa-servelat.jpg) no-repeat;
+}
+
+#meat .shelf2 a:nth-child(3) div {
+ background: url(../img/meat/ohotnichji-kolbaski.jpg) no-repeat;
+}
+
+#meat .shelf3 a:nth-child(1) div {
+ background: url(../img/meat/okorochka-kurinye.jpg) no-repeat;
+}
+
+#meat .shelf3 a:nth-child(2) div {
+ background: url(../img/meat/sardelki-svinye.jpg) no-repeat;
+}
+
+#meat .shelf3 a:nth-child(3) div {
+ background: url(../img/meat/sosiski-molochnie.jpg) no-repeat;
+}
+
+#meat .shelf4 a:nth-child(1) div {
+ background: url(../img/meat/svinoj-farsh.jpg) no-repeat;
+}
+
+#meat .shelf4 a:nth-child(2) div{
+ background: url(../img/meat/svinoj-okorok.jpg) no-repeat;
+}
+
+#meat .shelf4 a:nth-child(3) div {
+ background: url(../img/meat/svinye-rebryshki.jpg) no-repeat;
+}
+
+/* Stand 6 Fish */
+
+#fish .shelf1 a:nth-child(1) div {
+ background: url(../img/fish/anchousi.jpg) no-repeat;
+}
+
+#fish .shelf1 a:nth-child(2) div {
+ background: url(../img/fish/chernaya-ikra.jpg) no-repeat;
+}
+
+#fish .shelf1 a:nth-child(3) div {
+ background: url(../img/fish/kalmar.jpg) no-repeat;
+}
+
+#fish .shelf2 a:nth-child(1) div {
+ background: url(../img/fish/karas.jpg) no-repeat;
+}
+
+#fish .shelf2 a:nth-child(2) div {
+ background: url(../img/fish/karp.jpg) no-repeat;
+}
+
+#fish .shelf2 a:nth-child(3) div {
+ background: url(../img/fish/krabovye-palochki.jpg) no-repeat;
+}
+
+#fish .shelf3 a:nth-child(1) div {
+ background: url(../img/fish/krasnaya-ikra.jpg) no-repeat;
+}
+
+#fish .shelf3 a:nth-child(2) div {
+ background: url(../img/fish/krevetki.jpg) no-repeat;
+}
+
+#fish .shelf3 a:nth-child(3) div {
+ background: url(../img/fish/lobster.jpg) no-repeat;
+}
+
+#fish .shelf4 a:nth-child(1) div {
+ background: url(../img/fish/morskaya-kapusta.jpg) no-repeat;
+}
+
+#fish .shelf4 a:nth-child(2) div {
+ background: url(../img/fish/myaso-kraba.jpg) no-repeat;
+}
+
+#fish .shelf4 a:nth-child(3) div {
+ background: url(../img/fish/osminog.jpg) no-repeat;
+}
+
+/* Stand 7 Nuts */
+
+#nuts .shelf1 a:nth-child(1) div {
+ background: url(../img/nuts/arahis.jpg) no-repeat;
+}
+
+#nuts .shelf1 a:nth-child(2) div {
+ background: url(../img/nuts/chernosliv.jpg) no-repeat;
+}
+
+#nuts .shelf1 a:nth-child(3) div {
+ background: url(../img/nuts/cukaty.jpg) no-repeat;
+}
+
+#nuts .shelf2 a:nth-child(1) div {
+ background: url(../img/nuts/finiki.jpg) no-repeat;
+}
+
+#nuts .shelf2 a:nth-child(2) div {
+ background: url(../img/nuts/fistashki.jpg) no-repeat;
+}
+
+#nuts .shelf2 a:nth-child(3) div {
+ background: url(../img/nuts/gretskiy-oreh.jpg) no-repeat;
+}
+
+#nuts .shelf3 a:nth-child(1) div {
+ background: url(../img/nuts/Izum.jpg) no-repeat;
+}
+
+#nuts .shelf3 a:nth-child(2) div {
+ background: url(../img/nuts/keshju-zhareniy.jpg) no-repeat;
+}
+
+#nuts .shelf3 a:nth-child(3) div {
+ background: url(../img/nuts/kokosoviy-oreh.jpg) no-repeat;
+}
+
+#nuts .shelf4 a:nth-child(1) div {
+ background: url(../img/nuts/kuraga.jpg) no-repeat;
+}
+
+#nuts .shelf4 a:nth-child(2) div {
+ background: url(../img/nuts/mindal-sladkiy.jpg) no-repeat;
+}
+
+#nuts .shelf4 a:nth-child(3) div {
+ background: url(../img/nuts/semechki-podsolnechnika.jpg) no-repeat;
+}
+

@@ -1,0 +1,66 @@
+.carousel {
+ width: 800px;
+ height: 569px;
+ overflow: hidden;
+ position: relative;
+}
+
+.carousel ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ width: 20000em;
+ position: relative;
+}
+
+.carousel ul li {
+ float: left;
+}
+
+.carouselElem {
+ margin: 0 35px;
+}
+
+.carouselContent {
+ width: 800px;
+ margin: 0 auto;
+}
+
+.jcarousel-prev, .jcarousel-next {
+ text-decoration:none;
+ width:64px;
+ height:64px;
+ display:inline-block;
+ position:absolute;
+ top:57%;
+}
+
+.jcarousel-prev {
+ background:url(../img/left_arrow.png);
+}
+
+.jcarousel-next {
+ background:url(../img/right_arrow.png);
+}
+
+@media screen and (min-width: 1280px) {
+ .jcarousel-prev {
+  left: 180px;
+  top: 63%;
+ }
+ .jcarousel-next {
+  right: 180px;
+  top: 63%;
+ }
+}
+
+@media screen and (min-width: 1800px) {
+ .jcarousel-prev {
+  top: 51%;
+  left: 500px;
+ }
+ .jcarousel-next {
+  top: 51%;
+  right: 500px;
+ }
+}

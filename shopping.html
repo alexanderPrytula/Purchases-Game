@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+ <html lang="ru">
+  <head>
+   <meta charset="utf-8">
+   <title>Этап: 2</title>
+   <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+   <link rel="stylesheet" type="text/css" href="css/goods.css">
+   <link href='http://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic' rel='stylesheet' type='text/css'>
+   <script src="js/jquery-1.11.1.min.js"></script>
+   <script src="js/remember.js"></script>
+   <script src="js/shopping.js"></script>
+  </head>
+  <body class="mainBg">
+  
+   <div class="wrapper">
+   
+   <h3 class="backAnchor">
+	 <a href="index.html"><< Назад на главную</a><br>
+	<!-- <a href="remember.html"><< Назад на первый этап</a><br> -->
+   </h3>
+   
+    <header class="labelShopping">
+	 <h1 class="label">Отправьте в корзину соответствующие продукты</h1>
+	 <span class="small">для перехода на следующий уровень необходимо правильно выбрать все продукты</span>
+	</header>
+	
+	<div class="content shoppingContent">
+	
+	
+	 <!-- Stand 1 Fruits&Berries -->
+	 
+	
+	 <div class="stand standLeft" id="fruits_berries">
+	  <section class="top">
+	   <h2>Фрукты и Ягоды</h2>
+	  </section>
+	  
+	  <section class="goods">
+	   <div class="shelf1">
+	    <a title="Абрикос"><div></div></a>
+	    <a title="Ананас"><div></div></a>
+	    <a title="Апельсин"><div></div></a>
+	   </div>
+	   <div class="shelf2">
+	    <a title="Арбуз"><div></div></a>
+	    <a title="Боярышник"><div></div></a>
+	    <a title="Ежевика"><div></div></a>
+	   </div>
+	   <div class="shelf3">
+	    <a title="Грейпфрут"><div></div></a>
+	    <a title="Слива"><div></div></a>
+	    <a title="Черная смородина"><div></div></a>
+	   </div>
+	   <div class="shelf4">
+	    <a title="Красная смородина"><div></div></a>
+	    <a title="Виноград"><div></div></a>
+	    <a title="Вишня"><div></div></a>
+	   </div>
+	  </section>
+	  
+	  <section class="bottom"></section>
+	 </div>
+	 
+	 <!-- Stand 2 Vegetables -->
+	 
+	 <div class="stand standRight" id="vegetables">
+	  <section class="top">
+	   <h2>Овощи</h2>
+	  </section>
+	  
+	  <section class="goods">
+	   <div class="shelf1">
+	    <a title="Баклажан"><div></div></a>
+	    <a title="Бобы"><div></div></a>
+	    <a title="Брокколи"><div></div></a>
+	   </div>
+	   <div class="shelf2">
+	    <a title="Чеснок"><div></div></a>
+	    <a title="Фасоль"><div></div></a>
+	    <a title="Горох"><div></div></a>
+	   </div>
+	   <div class="shelf3">
+	    <a title="Кабачок"><div></div></a>
+	    <a title="Капуста"><div></div></a>
+	    <a title="Картофель"><div></div></a>
+	   </div>
+	   <div class="shelf4">
+	    <a title="Морковь"><div></div></a>
+	    <a title="Огурец"><div></div></a>
+	    <a title="Тыква"><div></div></a>
+	   </div>
+	  </section>
+	  
+	  <section class="bottom"></section>
+	 </div>
+	
+	
+	 <div style="clear:both"></div>
+	
+	
+    </div>
+	
+	<!-- Timer -->
+	
+	<div id="timer">
+	  <h2>
+	   Осталось<br> 
+	   <span>30</span><br>
+	   секунд
+	  </h2>
+	</div>
+	
+	<!-- Button -->
+	
+	<div class="submitButton shoppingButton">
+	 <h2>
+	  <a href="#" id="shoppingDone" class="highlight">Покупка завершена</a>
+	 </h2>
+	</div>
+	
+	<!-- Basket -->
+	
+	<div id="basket">
+		<div>
+			<h1>0</h1>
+			<span>Из</span>
+			<h3></h3>
+		</div>
+	</div>
+	
+	<div style="clear:both"></div>
+	
+	
+    <div id="basketInside"></div>
+	
+	
+	<div style="clear:both"></div>
+   </div>
+
+   
+   <!-- Feedback -->
+   
+   <div class="overlay"></div>
+   
+   <div id="dialog"></div>
+	
+  </body>
+ </html>
